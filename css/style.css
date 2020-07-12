@@ -63,3 +63,19 @@ body {
   background-color: coral;
   z-index: 0;
 }
+
+.gh-link {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  text-align: right;
+  font-family: 'Fritz';
+  color: cyan;
+  text-decoration: none;
+  border-bottom: 2px solid cyan;
+}
+
+.gh-link:hover, .gh-link:focus {
+  color: coral;
+  border-color: coral;
+}
